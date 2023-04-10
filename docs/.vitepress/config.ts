@@ -6,6 +6,8 @@ import sidebar from "./sidebar";
 export default defineConfig({
   title: "Aurora",
   description: "Aurora，让你更懂前端",
+  lang: 'zh-CN',
+  head: [['link', { rel: 'icon', href: '/assets/loog.png' }],],
   themeConfig: {
     logo: "/assets/loog.png",
     nav: navbar,
