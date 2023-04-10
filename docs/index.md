@@ -3,15 +3,17 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Aurora"
+  text: "让你更懂前端"
+  tagline: 日后你所有的成就，都将得益于今天一点一滴的努力。别放弃，所有的困境都不足以拦住你前进的方向。
+  image: 
+    src: /assets/loog.png
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 学习路线
+      link: /learn/notes/web.md
     - theme: alt
-      text: API Examples
+      text: 关于博主
       link: /api-examples
 
 features:
@@ -23,3 +25,9 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+
+<style>
+  .image-src {
+    border-radius: 50%
+  }
+</style>
