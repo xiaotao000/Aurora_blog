@@ -8,6 +8,7 @@ export default defineConfig({
   description: "Aurora，让你更懂前端",
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: '/assets/loog.png' }],],
+  base: 'Aurora_blog', 
   themeConfig: {
     logo: "/assets/loog.png",
     nav: navbar,
