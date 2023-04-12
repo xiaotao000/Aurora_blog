@@ -7,7 +7,7 @@ hero:
   text: "让你更懂前端"
   tagline: 日后你所有的成就，都将得益于今天一点一滴的努力。别放弃，所有的困境都不足以拦住你前进的方向。
   image: 
-    src: /assets/loog.png
+    src: /public/loog.png
   actions:
     - theme: brand
       text: 学习路线

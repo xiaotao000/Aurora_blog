@@ -8,9 +8,9 @@ export default defineConfig({
   description: "Aurora，让你更懂前端",
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: '/assets/loog.png' }],],
-  base: 'Aurora_blog', 
+  base: '/Aurora_blog/', 
   themeConfig: {
-    logo: "/assets/loog.png",
+    logo: "/public/loog.png",
     nav: navbar,
     sidebar: sidebar,
     outline: [2, 3],

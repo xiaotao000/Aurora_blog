@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r,N as a}from"./chunks/framework.5124499d.js";const f=JSON.parse('{"title":"作者简介","description":"","frontmatter":{},"headers":[],"relativePath":"resume/index.md"}'),o={name:"resume/index.md"},i=a("",3),n=[i];function l(_,s,c,d,h,p){return t(),r("div",null,n)}const m=e(o,[["render",l]]);export{f as __pageData,m as default};
