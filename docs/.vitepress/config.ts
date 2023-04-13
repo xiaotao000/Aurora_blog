@@ -7,10 +7,10 @@ export default defineConfig({
   title: "Aurora",
   description: "Aurora，让你更懂前端",
   lang: 'zh-CN',
-  head: [['link', { rel: 'icon', href: '/assets/loog.png' }],],
+  head: [['link', { rel: 'icon', href: '/loog.png' }],],
   base: '/Aurora_blog/', 
   themeConfig: {
-    logo: "/public/loog.png",
+    logo: "/loog.png",
     nav: navbar,
     sidebar: sidebar,
     outline: [2, 3],
