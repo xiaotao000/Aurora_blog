@@ -144,7 +144,7 @@
     -   **deep**：深度监听，发现数据内部的变化，在复杂数据类型中使用，例如数组中的对象发生变化。
 
 ## `Vue` 实现双向数据绑定原理是什么？
-Vue2.x 采用数据劫持结合发布订阅模式（PubSub 模式）的方式，通过 `Object.defineProperty` 来劫持各个属性的 `setter、getter`，在数据变动时发布消息给订阅者，触发相应的监听回调。
+`Vue2.x` 采用数据劫持结合发布订阅模式（PubSub 模式）的方式，通过 `Object.defineProperty` 来劫持各个属性的 `setter、getter`，在数据变动时发布消息给订阅者，触发相应的监听回调。
 
 `Vue3.x` 放弃了 `Object.defineProperty` ，使用 `ES6` 原生的 Proxy，来解决以前使用 `Object.defineProperty` 所存在的一些问题。
 
@@ -160,7 +160,6 @@ Vue2.x 采用数据劫持结合发布订阅模式（PubSub 模式）的方式，
 **方法二**
 
 定义一个含有 `scoped` 属性的 `style` 标签之外，再定义一个不含有 `scoped` 属性的 `style` 标签，即在一个 vue 组件中定义一个全局的 `style` 标签，一个含有作用域的 `style` 标签此时，我们只需要将修改第三方样式的 `css` 写在第一个 `style` 中即可。
-
 
 **方法三**
 
