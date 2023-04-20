@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as r,N as a}from"./chunks/framework.01b322b0.js";const b=JSON.parse('{"title":"Vue相关","description":"","frontmatter":{},"headers":[],"relativePath":"source-list/notes/vue.md"}'),t={name:"source-list/notes/vue.md"},c=a("",21),d=[c];function i(l,n,s,h,u,f){return r(),o("div",null,d)}const m=e(t,[["render",i]]);export{b as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,N as a}from"./chunks/framework.01b322b0.js";const u=JSON.parse('{"title":"优秀项目开源","description":"","frontmatter":{},"headers":[],"relativePath":"source-list/notes/open.md"}'),r={name:"source-list/notes/open.md"},c=a("",3),n=[c];function d(i,s,l,_,h,p){return o(),t("div",null,n)}const b=e(r,[["render",d]]);export{u as __pageData,b as default};
